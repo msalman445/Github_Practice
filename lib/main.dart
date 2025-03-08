@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:github_practice/custom_container.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[Container()],
+          children: <Widget>[CustomContainer()],
         ),
       ),
     );
